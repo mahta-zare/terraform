@@ -1,0 +1,12 @@
+# local .terraform dir
+.terraform/*
+
+# tf state files
+*.tfstate
+*.tfstate.*
+
+# tf variable files, may iclude sensitive data
+*.tfvars
+
+# visual studio code editor configurations
+.vscode/*
